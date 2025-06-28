@@ -45,9 +45,7 @@ public class PostController {
 	@GetMapping("/posts/{text}")
 	public List<Post> search(@PathVariable String text)
 	{
-		System.out.println("IN SEARCH!");
 		return sRepo.findByText(text);
-		
 	}
 	
 	@PostMapping("/post")
