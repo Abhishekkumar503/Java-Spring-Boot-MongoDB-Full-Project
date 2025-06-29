@@ -16,6 +16,7 @@ import com.abis.project.model.Post;
 import com.abis.project.repo.PostRepo;
 import com.abis.project.repo.SearchRepository;
 
+import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.constraints.NotEmpty;
 
