@@ -22,3 +22,6 @@
 2025-06-29T19:04:19.614+05:30  INFO 7568 --- [Joblisting] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
 2025-06-29T19:04:19.971+05:30  INFO 7568 --- [Joblisting] [http-nio-8080-exec-1] com.abis.project.aspect.LogginAspect     : getAllPost Method Called!
 2025-06-29T19:04:32.969+05:30  INFO 7568 --- [Joblisting] [http-nio-8080-exec-2] com.abis.project.aspect.LogginAspect     : getAllPost Method Called!
+2025-06-29T19:08:14.509+05:30  INFO 7568 --- [Joblisting] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-29T19:08:14.515+05:30  INFO 7568 --- [Joblisting] [RMI TCP Connection(9)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-29T19:08:14.937+05:30  INFO 7568 --- [Joblisting] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
