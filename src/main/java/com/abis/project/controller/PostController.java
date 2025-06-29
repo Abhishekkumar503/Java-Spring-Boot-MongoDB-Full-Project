@@ -39,6 +39,7 @@ public class PostController {
 	@GetMapping("/posts")
 	public List<Post> getAllPost()
 	{
+		int i=1/0;
 		return repo.findAll();
 	}
 	
